@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="icon" href="./Image/Selfie.jpg" type="icon/png">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#introduction">Giới thiệu</a></li>
+            <li><a href="#education">Giáo dục</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#experience">Kinh nghiệm</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+            <!-- Nút chuyển đổi dark mode -->
+            <li>
+                <button id="dark-mode-toggle">
+                    <i class="fas fa-moon" id="dark-mode-icon"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Nguyễn Thành Nam</h1>
+            <p class="typewriter">Nam Còi Coder</p>
+        </div>
+    </section>
+    <!-- Phần Giới thiệu -->
+    <section id="introduction">
+        <h1>Giới thiệu</h1>
+        <div class="intro-grid">
+            <!-- Cột 1: Tên tuổi, quê quán -->
+            <div class="intro-column">
+                <img src="./Image/Selfie2.jpg" alt="Selfie">
+                <h2>Thông tin cá nhân</h2>
+                <p><strong>Tên:</strong> Nguyễn Thành Nam</p>
+                <p><strong>Tuổi:</strong> 24</p>
+                <p><strong>Quê quán:</strong> Yên Sở, Hoàng Mai, Hà Nội, Việt Nam</p>
+            </div>
+            <!-- Cột 2: Sở thích -->
+            <div class="intro-column">
+                <img src="./Image/KpopLogo.jpg" alt="KpopLogo">
+                <h2>Sở thích</h2>
+                <ul>
+                    <li>Lập trình</li>
+                    <li>Nghe nhạc Kpop</li>
+                    <li>Xem Mukbang</li>
+                    <li>Xem bóng đá</li>
+                </ul>
+            </div>
+            <!-- Cột 3: Công việc -->
+            <div class="intro-column">
+                <img src="./Image/Appen.jpg" alt="Selfie">
+                <h2>Công việc</h2>
+                <p>Tớ từng làm huấn luyện dữ liệu cho Meta AI tại Appen với kinh ngiệm 5 năm</p>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Giáo dục -->
+    <section id="education">
+        <h1>Giáo dục</h1>
+        <div class="timeline">
+            <!-- Mốc 1: Sinh ra - 2019 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>2001 - 2019</h2>
+                    <p>
+                        Đây là giai đoạn từ khi sinh ra cho tới khi học hết cấp ba. Tớ đã trải qua nhiều thứ, từ một cậu bé nhút nhát dần trở nên hướng ngoại hơn.
+                        Tớ đã học tại Yên Sở từ mầm non đến hết cấp hai, cấp ba tớ học Hoàng Văn Thụ, đã có cơ hội tiếp xúc với những thầy cô hay bạn bè tuyệt vời.
+                    </p>
+                </div>
+            </div>
+            <!-- Mốc 2: 2019 - 2024 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>11/2019 - 12/2024</h2>
+                    <p>Đây là giai đoạn tớ đã làm việc với Appen thông qua người anh của một người bạn cấp ba. Tớ đã được làm tại nhà, trải qua nhiều dự án khác nhau
+                        như là phiên âm cho AI, đánh giá, dán nhãn sản phẩm,... có rất nhiều dự án khác nhau, có dự án ngắn cũng như dự án dài. Điều này đã giúp tớ
+                        rèn tính sắp xếp thời gian tại nhà dù không có ai đốc thúc cả, tớ cũng được học thêm tiếng Anh, tiếp xúc với máy tính vì 18 năm tớ không có
+                        một chiếc máy tính cá nhân để dùng bao giờ, chủ yếu là ra hàng net. Tuy nhiên, tớ cũng không phủ nhận rằng làm tại nhà khiến tớ ít có cơ
+                        hội tiếp xúc với những người khác, khiến tớ khá ít mối quan hệ dù tớ vẫn có bạn bè nhưng tớ muốn làm công việc khác...
+                    </p>
+                </div>
+            </div>
+            <!-- Mốc 3: 2021 - nay -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>02/2021 - nay</h2>
+                    <p>
+                        Tớ không có cơ hội trải qua môi trường đại học vì gánh nặng kinh tế, trong thời gian làm với Appen, tớ quyết định tự học tại gia tiếng Nhật thử, cũng mong là sẽ thử
+                        làm công việc gì đó với tiếng Nhật sau này. Tớ tìm tài liệu và học qua các kênh Youtube như là Dũng Mori, Riki Nihongo cùng với các trang web trên mạng về tiếng Nhật.
+                        Gọi là tự học nhưng tớ cũng không nhận mình giỏi dù đã có bằng N3 và N2 vào năm 2022 và 2023 nhưng tớ vốn không giỏi kaiwa vì cũng chỉ là tự học ở nhà. Vậy nên tớ
+                        cũng có ý định sang Nhật hoặc làm gì đó ở Việt Nam nhưng kinh nghiệm và bằng cấp là không đủ để tớ xin đi làm. Tớ đã có giai đoạn tự ti bởi kinh tế không cho phép dù
+                        làm với Appen nhưng cũng dành cho gia đình cả rồi. Tuy nhiên, tớ vẫn học với mong muốn sau này sẽ dùng đến nó và có cơ hội sang Nhật...
+                    </p>
+                </div>
+            </div>
+            <!-- Mốc 4: 2023 - nay -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>10/2023 - nay</h2>
+                    <p>
+                        Sau quãng thời gian dài buồn vì suy nghĩ, lo lắng, tớ đã quyết định suy nghĩ và dành cho mình một hướng đi hơn, đó là theo ngành lập trình web dù nó sẽ khó.
+                        Cơ duyên khi mà đã khoảng 4 năm tớ làm việc với máy tính, dù chẳng liên quan gì lập trình nhưng đó cũng là cho thấy sự phù hợp của tớ khi làm công việc liên quan
+                        đến công nghệ thông tin, tớ quyết định theo học và cũng là tự học. Lý do thì tớ thấy là ngành này đa phần lập trình viên phải tự học là rất cao cùng với đó là
+                        nhà tuyển dụng cũng không nhất thiết phải có bằng nên tớ quyết định học theo và cố gắng làm ra sản phẩm của mình. Tớ tự tìm tòi ở F8, W3Schools rồi trang Youtube
+                        của mấy người Ấn Độ hay FreeCodeCamp, dần dần tớ đã quen với nhịp học cũng như hiểu hơn về máy tính cũng như ngành này. Tớ cũng hiểu rằng đây là ngành luôn đòi hỏi
+                        phải tự học lẫn cập nhật liên tục vì công nghệ thay đổi, AI cũng mạnh nữa nhưng dù sao đã theo tớ sẽ theo đến cùng. Trang web này tớ làm cũng coi như sự ghi nhận
+                        của tớ dù không phải quá to tát gì...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Kỹ năng -->
+    <section id="skills">
+        <h1>Kỹ năng</h1>
+        <div class="skills-grid">
+            <!-- Cột 1: Kỹ năng văn phòng -->
+            <div class="skills-column">
+                <h2>Kỹ năng văn phòng</h2>
+                <div class="skill">
+                    <p>Word</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;" data-percent="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Excel</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;" data-percent="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>PowerPoint</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;" data-percent="95%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cột 2: Web Frontend -->
+            <div class="skills-column">
+                <h2>Web Frontend</h2>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;" data-percent="95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;" data-percent="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Sass</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;" data-percent="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Bootstrap</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;" data-percent="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Vue.js</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;" data-percent="75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>React.js</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;" data-percent="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Angular.js</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;" data-percent="65%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cột 3: Web Backend -->
+            <div class="skills-column">
+                <h2>Web Backend</h2>
+                <div class="skill">
+                    <p>Node.js</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;" data-percent="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>MongoDB</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;" data-percent="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>MySQL</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;" data-percent="75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>PHP</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;" data-percent="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;" data-percent="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Java</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;" data-percent="65%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Kinh nghiệm -->
+    <section id="experience">
+        <h1>Kinh nghiệm</h1>
+        <h2>Trải qua 5 năm, tớ đã có nhiều dự án khác nhau khi làm với Appen.</h2>
+        <div class="experience-grid">
+            <!-- Thẻ 1 -->
+            <div class="experience-card">
+                <img src="./Image/Transcript.jpg" alt="Kinh nghiệm 1">
+                <h2>Phiên âm audio</h2>
+                <p>Tớ đã từng làm dự án phiên âm tiếng cho AI trong khoảng từ năm 2019 đến hết năm 2020. Đây cũng là dự án đầu tiên tớ bắt đầu làm.</p>
+            </div>
+
+            <!-- Thẻ 2 -->
+            <div class="experience-card">
+                <img src="./Image/Covid.png" alt="Kinh nghiệm 2">
+                <h2>Gán nhãn thời Covid</h2>
+                <p>Tớ đã tham gia một dự án cũng khá vui trong thời kỳ Covid đang hoành hành trong khoảng năm 2021, đây là dự án tớ tìm những từ khóa liên quan đến Covid để AI nhận biết.</p>
+            </div>
+
+            <!-- Thẻ 3 -->
+            <div class="experience-card">
+                <img src="./Image/AI.jpg" alt="Kinh nghiệm 3">
+                <h2>Đánh giá phản hồi AI</h2>
+                <p>Tớ đã tham gia dự án để kiểm tra xem AI phản hồi có tốt không khi mà meta AI vẫn còn nhiều sai sót trong cách dùng từ và sự hiểu biết. Tớ đã dành thời gian viết lại nếu
+                    phản hồi chưa tốt.
+                </p>
+            </div>
+
+            <!-- Thẻ 4 -->
+            <div class="experience-card">
+                <img src="./Image/Video.png" alt="Kinh nghiệm 4">
+                <h2>Chọn thể loại video</h2>
+                <p>Tớ đã từng tham gia một dự án cũng vui nhộn là đánh giá xem video thuộc thể loại gì. Tớ được xem rất nhiều video thú vị và cố tìm hiểu xem thể loại chính của từng video là về cái gì.</p>
+            </div>
+
+            <!-- Thẻ 5 -->
+            <div class="experience-card">
+                <img src="./Image/Wikipedia.png" alt="Kinh nghiệm 5">
+                <h2>Tìm kiếm từ khóa và liên kết đến Wikipedia</h2>
+                <p>Tớ đã tham gia dự án này khá dài, khoảng hơn một năm từ đầu năm 2021 đến giữa năm 2022. Tớ tìm kiếm từ khóa trong đoạn văn hoặc câu văn và kiểm tra xem có liên kết đúng
+                    với Wikipedia của từ khóa đó không. Đây cũng là nền tảng để AI tìm thông tin qua Wikipedia.
+                </p>
+            </div>
+
+            <!-- Thẻ 6 -->
+            <div class="experience-card">
+                <img src="./Image/More.jpg" alt="Kinh nghiệm 6">
+                <h2>Nhiều dự án khác</h2>
+                <p>Bên cạnh những dự án nổi bật mà tớ ấn tượng, cũng có những dự án khác mà tớ tham gia như là đánh giá quảng cáo, tạo prompt với AI hay là gán ảnh cho trang web.
+                    Nhìn chung thì mỗi dự án tớ đều tìm hiểu yêu cầu của người ta và cố gắng hoàn thành tốt công việc trong thời gian giới hạn. Đối với tớ, mỗi dự án đều có điều mới và giúp
+                    tớ tìm hiểu thêm cũng như học tiếng Anh vì tài liệu đều được viết bằng ngôn ngữ này.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Liên hệ -->
+    <section id="contact">
+        <h1>Liên hệ</h1>
+        <div class="contact-form">
+            <!-- Form đăng ký -->
+            <form id="register-form" class="active-form">
+                <h2>Đăng ký</h2>
+                <div class="form-group">
+                    <label for="register-username">Tên đăng nhập:</label>
+                    <input type="text" id="register-username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-phone">Số điện thoại:</label>
+                    <input type="tel" id="register-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Mật khẩu:</label>
+                    <input type="password" id="register-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm-password">Nhập lại mật khẩu:</label>
+                    <input type="password" id="register-confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label>Giới tính:</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="male"> Nam</label>
+                        <label><input type="radio" name="gender" value="female"> Nữ</label>
+                        <label><input type="radio" name="gender" value="other"> Khác</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="register-notes">Ghi chú:</label>
+                    <textarea id="register-notes" name="notes" rows="4"></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit">Gửi</button>
+                    <button type="reset">Xóa</button>
+                </div>
+                <p class="switch-form">Bạn đã có tài khoản? <a href="#" id="switch-to-login">Đăng nhập ngay!</a></p>
+            </form>
+
+            <!-- Form đăng nhập -->
+            <form id="login-form" class="hidden-form">
+                <h2>Đăng nhập</h2>
+                <div class="form-group">
+                    <label for="login-username">Tên đăng nhập:</label>
+                    <input type="text" id="login-username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Mật khẩu:</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit">Đăng nhập</button>
+                    <button type="reset">Xóa</button>
+                </div>
+                <p class="switch-form">Bạn chưa có tài khoản? <a href="#" id="switch-to-register">Đăng ký ngay!</a></p>
+            </form>
+        </div>
+    </section>
+    <!-- Phần Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Các icons liên hệ -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/NamCrush11o2" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:namnguyen.nnnn54@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/namcoi_hihi/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/LeSserafim11o2" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="tel:+332420614"><i class="fas fa-phone"></i></a>
+            </div>
+            <!-- Dòng chữ cuối cùng -->
+            <p class="footer-text">Trang web được làm bởi Nguyễn Thành Nam, fan cứng Kpop!</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
